@@ -683,7 +683,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &453403280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1792,7 +1792,7 @@ MonoBehaviour:
   m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SortKey: 2279746981
+  SortKey: 1271842421
   ObjectInterest: 1
   Flags: 262145
   NestedObjects: []
@@ -3082,8 +3082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d06845b7aec655c408dd48acad99d1ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _runnerPrefab: {fileID: 1559932473022999260, guid: 0dbc2b4413bb3434dbe93f831e2af2f8, type: 3}
-  _bootstrapObject: {fileID: 453403279}
 --- !u!1 &2119450466
 GameObject:
   m_ObjectHideFlags: 0

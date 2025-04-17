@@ -803,7 +803,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -1473,7 +1473,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 536567dc22c74234db2c615066af8ceb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _Health: 10
   _slider: {fileID: 7342386129732315623}
+  _Score: 0
+  scoreText: {fileID: 0}
+  isDead: 0
 --- !u!114 &6915938623645776847
 MonoBehaviour:
   m_ObjectHideFlags: 0

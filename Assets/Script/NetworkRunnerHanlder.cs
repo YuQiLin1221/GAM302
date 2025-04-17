@@ -9,8 +9,9 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
 
-public class NetworkRunnerHanlder : MonoBehaviour
+public class NetworkRunnerHanlder : NetworkBehaviour
 {
+    [Obsolete]
     private void Start()
     {
         // Check if we are in shared mode
@@ -25,12 +26,11 @@ public class NetworkRunnerHanlder : MonoBehaviour
             {
                 if (roomMode == "Create")
                 {
-                    // Start the shared client
-                    fusionBootstrap.StartSharedClient();
+                    //fusionBootstrap.StartSharedClient();
+                    fusionBootstrap.StartSinglePlayer();
                 }
                 else if (roomMode == "Join")
                 {
-                    // Start the shared client
                     fusionBootstrap.StartSharedClient();
                 }
             }
